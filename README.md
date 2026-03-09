@@ -14,6 +14,11 @@ VRChatのyt-dlpの問題を根本的に解決するwrapperです
 cl /std:c++17 /O2 /MT /EHsc VRCdlpsetup.cpp /link winhttp.lib crypt32.lib user32.lib
 ```
 
+## How to Install
+
+[ダウンロードはここから](https://github.com/Madoa5561/VRCdlpsetup/releases/tag/1.0.1)
+
+
 ## How to Setup
 
 VRChat内のyt-dlp.exeが置いてあるディレクトリ内にVRCdlpsetup.exeを置いてダブルクリックで起動
