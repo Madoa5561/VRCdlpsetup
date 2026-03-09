@@ -11,7 +11,7 @@ VRChatのyt-dlpの問題を根本的に解決するwrapperです
 ## How to Build
 
 ```bash
-cl /std:c++17 /O2 /MT /EHsc wrapper.cpp /link winhttp.lib crypt32.lib user32.lib
+cl /std:c++17 /O2 /MT /EHsc VRCdlpsetup.cpp /link winhttp.lib crypt32.lib user32.lib
 ```
 
 ## How to Setup
