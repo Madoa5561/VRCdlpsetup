@@ -17,6 +17,10 @@ cl /std:c++17 /O2 /MT /EHsc VRCdlpsetup.cpp /link wininet.lib shell32.lib user32
 ## How to Setup
 
 VRChat内のyt-dlp.exeが置いてあるディレクトリ内にVRCdlpsetup.exeを置いてダブルクリックで起動
+```path
+C:\Users\***\AppData\LocalLow\VRChat\VRChat\Tools
+```
+基本的にここに置かれています
 
 自動的に最新版のyt-dlpに置き換わります
 
