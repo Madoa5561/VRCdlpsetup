@@ -18,6 +18,8 @@ cl /std:c++17 /O2 /MT /EHsc VRCdlpsetup.cpp /link winhttp.lib crypt32.lib user32
 
 [ダウンロードはここから](https://github.com/Madoa5561/VRCdlpsetup/releases/tag/1.0.1)
 
+VRCdlpsetup.exeをインストールしてください
+
 
 ## How to Setup
 
