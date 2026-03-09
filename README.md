@@ -1,14 +1,32 @@
 # VRCdlpsetup
-VRchatのyt-dlpの問題を根本的に解決するwrapperです
 
-# How to Bulid
+VRChatのyt-dlpの問題を根本的に解決するwrapperです
+
+## 機能
+
+- **自動アップデート** — 起動時にyt-dlpの最新バージョンをGitHubからチェックし、更新があれば自動でダウンロード・置き換えを行います
+- **Cookie対応** — `cookies.txt` を配置するだけで、yt-dlp実行時に自動的にcookieが適用されます
+- **透過的なラッパー** — 引数はすべてそのままyt-dlpに渡されるため、既存の動作に影響を与えません
+
+## How to Build
+
 ```bash
 cl /std:c++17 /O2 /MT /EHsc VRCdlpsetup.cpp /link wininet.lib shell32.lib user32.lib advapi32.lib
 ```
 
-# How to Setup
-VRchat内のyt-dlp.exeが置いてあるディレクトリ内にVRCdlpsetup.exeを置いてダブルクリックで起動
+## How to Setup
+
+VRChat内のyt-dlp.exeが置いてあるディレクトリ内にVRCdlpsetup.exeを置いてダブルクリックで起動
+
 自動的に最新版のyt-dlpに置き換わります
 
-# Option
-同じディレクトリ内に cookies.txt を置いてcookieを貼ることでcookieを使用することができます
+## Option
+
+同じディレクトリ内に `cookies.txt` を置いてcookieを貼ることで自動的にcookieを使用するオプションになります
+[cookie取得方法](https://wzwi.gitlab.io/entry/2025/05/17/061709/)
+
+## 注意事項
+
+- セットアップ時にexe名が `VRCdlpsetup.exe` である必要があります。リネームすると正しく動作しません
+- セットアップを実行すると既存の `yt-dlp.exe` は上書きされます。必要に応じてバックアップを取ってください
+- cookie設定は捨て垢などで行うことを推奨します
