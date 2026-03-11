@@ -22,7 +22,7 @@ VRCdlpsetup.exeをインストールしてください
 
 [Boothからのダウンロードはここから](https://shota556.booth.pm/items/8072545)
 Boothからのダウンロードにはreadmeが同梱されておりそっちの方が詳しく書かれています
-
+cookieの設定方法やセットアップ方法や軽い仕様書まで書いてあるのでVRchatterはこっちから入れることをお勧めします
 
 
 ## How to Setup
