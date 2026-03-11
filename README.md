@@ -37,6 +37,7 @@ C:\Users\***\AppData\LocalLow\VRChat\VRChat\Tools
 同じディレクトリ内に `cookies.txt` を置いてcookieを貼ることで自動的にcookieを使用するオプションになります
 
 [cookie取得方法](https://wzwi.gitlab.io/entry/2025/05/17/061709/)
+Cookieの設定方法を近日中動画にしてyoutubeにアップします
 
 ## 注意事項
 
